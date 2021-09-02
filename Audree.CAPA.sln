@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E3FC8482-8283-480C-AF9B-B8DA9160681C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Audree.CAPA.API", "Src\Application\Audree.CAPA.API\Audree.CAPA.API.csproj", "{4B3D198C-6312-4759-9A2D-3EDD00829875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4877BEBB-420A-4233-8942-86C9CFC21C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BDCB0798-BE1E-4190-907E-26D8DEE5802A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1C3AB088-6F95-4D35-A2BA-1D92D959AAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audree.CAPA.Application", "Src\Application\Audree.CAPA.Application\Audree.CAPA.Application.csproj", "{96B6DB1E-27C1-4505-A358-4725A3D7A03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audree.CAPA.Core", "Src\Core\Audree.CAPA.Core\Audree.CAPA.Core.csproj", "{F030E963-43B6-43BA-814E-F83CCC26437B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audree.CAPA.Infrastructure", "Src\Infrastructure\Audree.CAPA.Infrastructure\Audree.CAPA.Infrastructure.csproj", "{8E736C19-AE46-4DD1-9ABD-468310965ED3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3D198C-6312-4759-9A2D-3EDD00829875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3D198C-6312-4759-9A2D-3EDD00829875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3D198C-6312-4759-9A2D-3EDD00829875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3D198C-6312-4759-9A2D-3EDD00829875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B6DB1E-27C1-4505-A358-4725A3D7A03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B6DB1E-27C1-4505-A358-4725A3D7A03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B6DB1E-27C1-4505-A358-4725A3D7A03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B6DB1E-27C1-4505-A358-4725A3D7A03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F030E963-43B6-43BA-814E-F83CCC26437B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F030E963-43B6-43BA-814E-F83CCC26437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F030E963-43B6-43BA-814E-F83CCC26437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F030E963-43B6-43BA-814E-F83CCC26437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E736C19-AE46-4DD1-9ABD-468310965ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E736C19-AE46-4DD1-9ABD-468310965ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E736C19-AE46-4DD1-9ABD-468310965ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E736C19-AE46-4DD1-9ABD-468310965ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B3D198C-6312-4759-9A2D-3EDD00829875} = {E3FC8482-8283-480C-AF9B-B8DA9160681C}
+		{96B6DB1E-27C1-4505-A358-4725A3D7A03E} = {E3FC8482-8283-480C-AF9B-B8DA9160681C}
+		{F030E963-43B6-43BA-814E-F83CCC26437B} = {1C3AB088-6F95-4D35-A2BA-1D92D959AAA5}
+		{8E736C19-AE46-4DD1-9ABD-468310965ED3} = {4877BEBB-420A-4233-8942-86C9CFC21C6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CC0D8CC-078B-4702-AFCD-E4DD96D4A180}
+	EndGlobalSection
+EndGlobal

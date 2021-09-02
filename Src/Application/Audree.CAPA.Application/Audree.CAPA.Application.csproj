@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Audree.CAPA.Core\Audree.CAPA.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO%27s\Admin\" />
+    <Folder Include="DTO%27s\Transactions\" />
+    <Folder Include="DTO%27s\Reports\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

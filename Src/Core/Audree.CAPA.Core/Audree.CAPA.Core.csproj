@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\IRepositories\Admin\" />
+    <Folder Include="Contracts\IRepositories\Masters\" />
+    <Folder Include="Contracts\IRepositories\Transactions\" />
+    <Folder Include="Contracts\IRepositories\Reports\" />
+    <Folder Include="Models\Admin\" />
+    <Folder Include="Models\Transactions\" />
+    <Folder Include="Models\Reports\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.2.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
